@@ -1,19 +1,22 @@
 # Urban Infrastructure & Public Safety Modeling
 
 ## Overview
-Built regression and classification models to analyze violent crime and pedestrian-vehicle accident hotspots across 239 Charlotte census tracts.
+This project examines the relationship between urban infrastructure and public safety outcomes across 239 Charlotte census tracts. Regression and classification models were developed to analyze violent crime counts and pedestrian-vehicle accident (PVA) hotspots.
+
+A detailed explanation of research design and findings is available in the accompanying Project Report.
 
 ## Data Sources
-- Charlotte Open Data Portal
-- NCDOT
-- US Census Bureau
+- Charlotte Open Data Portal  
+- NCDOT  
+- U.S. Census Bureau  
 
 ## Methods
-- Feature engineering via spatial joins
-- OLS, Poisson, Negative Binomial regression
-- Logistic Regression, SVM, Random Forest
-- 8-fold cross-validation + grid search
+- Multi-source data integration and spatial joins  
+- Tract-level feature engineering  
+- OLS, Poisson, and Negative Binomial regression  
+- Logistic Regression, SVM, Random Forest  
+- 8-fold cross-validation and grid search  
 
 ## Results
-- Best classification accuracy: ~75%
-- Identified bus stops and crosswalk density as significant predictors
+- ~75% classification accuracy for PVA hotspot prediction  
+- Identified bus stop density and pedestrian infrastructure as significant predictors  
